@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 生成的音频产物（可由 tts_batch.py 重新生成）
+sound/
+*.mp3
+
+# 调试日志与截图
+debug.log
+.screenshots/
+*.log
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
